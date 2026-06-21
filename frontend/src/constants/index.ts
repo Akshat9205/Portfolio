@@ -181,6 +181,33 @@ export const projects = [
       "Personalized recommendations",
     ],
   },
+  {
+    id: "heroresume",
+    title: "HeroResume",
+    description:
+      "An AI-enhanced resume builder that lets users craft professional, recruiter-ready resumes with real-time live preview, multiple templates, custom color themes, font selections, and one-click PDF export — all saved locally for 100% privacy.",
+    tags: [
+      { name: "react", color: "text-cyan-400" },
+      { name: "typescript", color: "text-blue-400" },
+      { name: "vite", color: "text-purple-400" },
+      { name: "tailwind css", color: "text-sky-400" },
+    ],
+    image: "/assets/ResumeBuilder.png",
+    source_code_link: "https://github.com/Akshat9205/Resume_Builder",
+    live_link: "https://resume-builder-gamma-woad.vercel.app/",
+    gallery: [
+      "/assets/ResumeBuilder.png",
+      "/assets/Resume1.png",
+      "/assets/Resume2.png",
+      "/assets/Resume3.png",
+    ],
+    features: [
+      "Live real-time resume preview",
+      "Multiple templates & color themes",
+      "PDF export & print support",
+      "100% local save — no data uploaded",
+    ],
+  },
 ];
 
 export const certifications = [
